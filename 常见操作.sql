@@ -1,0 +1,4 @@
+#convert（value，type）;类型转换，相当于截取
+SELECT CONVERT(100.3465,DECIMAL(10,2)), CONVERT(100,DECIMAL(10,2)),CONVERT(100.4,DECIMAL(10,2));
+#FORMAT（X,D）：强制保留D位小数，整数部分超过三位的时候以逗号分割，并且返回的结果是string类型的
+SELECT FORMAT(100.3465,2),FORMAT(100,2),FORMAT(852100.6,2);
